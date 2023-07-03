@@ -1,0 +1,154 @@
+
+/* CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .cta-button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    .container {
+      margin: 20px auto;
+      max-width: 400px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    
+    .cta-button {
+      background-color: #333;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    
+    .cta-button:hover {
+      background-color: #555;
+    }
+  
+  
+  
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    .container {
+      margin: 20px auto;
+      max-width: 800px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .feature {
+      margin-bottom: 40px;
+    }
+    
+    .feature img {
+      max-width: 700px;
+      margin-bottom: 10px;
+    }
+    
+    .feature h2 {
+      margin-top: 0;
+    }
+    
+    .feature p {
+      margin-bottom: 10px;
+    }
+    
+    .cta-button {
+      background-color: #333;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    
+    .cta-button:hover {
+      background-color: #555;
+    }

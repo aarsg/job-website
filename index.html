@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hiring Pro</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>HIRING PRO</h1>
+  </header>
+  
+  <div class="container">
+    <div class="feature">
+      <img src="https://img.freepik.com/premium-photo/3d-rendering-illustration-resume-profile-job-interview-with-magnifier-human-resources-resume-concept-job-search-cv-card-hr-recruitment-agency-searching-new-employee-human-resources_473922-1054.jpg?w=740" alt="Feature 1">
+      <h2>Efficient Hiring Process</h2>
+      <p>Streamline your hiring process with our online solution, saving time and effort for hiring managers and HR professionals.</p>
+    </div>
+    
+    <div class="feature">
+      <img src="https://www.jac-recruitment.sg/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN2tyT0E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--198147015f024e34fb44ad8e607b65890d6b6eb6/Lifescience.jpg" alt="Feature 2">
+      <h2>Wide Candidate Pool</h2>
+      <p>Access a large pool of qualified candidates, ensuring you find the right fit for your job requirements.</p>
+    </div>
+    
+    <div class="feature">
+      <img src="https://thumbs.dreamstime.com/z/job-recruitment-agency-d-render-image-representing-77286136.jpg" alt="Feature 3">
+      <h2>Advanced Filtering</h2>
+      <p>Utilize advanced filtering options to quickly find candidates based on location, skills, experience, and more.</p>
+    </div>
+    <header>
+        <h1>Company Login</h1>
+      </header>
+      
+      <div class="container">
+        <h2>Login</h2>
+        <form>
+          <input type="text" placeholder="Email" id="login-email">
+          <input type="password" placeholder="Password" id="login-password">
+          <button type="submit" class="cta-button">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+      </div>
+    
+   
+    <a href="signup.html" class="cta-button">Get Started</a>
+  </div>
+  <header>
+    <h1>Company Registration</h1>
+  </header>
+  
+  <div class="container">
+    <h2>Register</h2>
+    <form>
+      <input type="text" placeholder="Company Name" id="company-name">
+      <input type="text" placeholder="Email" id="register-email">
+      <input type="password" placeholder="Password" id="register-password">
+      <button type="submit" class="cta-button">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+  
+  <script>
+    
+     const loginForm = document.querySelector('form');
+    loginForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = document.getElementById('login-email').value;
+      const password = document.getElementById('login-password').value;
+      
+      
+    });
+        
+        const registerForm = document.querySelector('form');
+    registerForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const companyName = document.getElementById('company-name').value;
+      const email = document.getElementById('register-email').value;
+      const password = document.getElementById('register-password').value;
+      
+    });
+  </script>
+</body>
+</html>
